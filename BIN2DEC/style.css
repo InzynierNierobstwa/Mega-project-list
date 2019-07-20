@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #407586;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+}
+
+.headerContainer {
+    width: 80%;
+    padding-left: 3em;
+}
+
+.container{
+    width: 80%;
+    min-height: 25em;
+    padding-left: 3em;
+}
+
+.labelInput{
+    font-size: 1.75em;
+    margin: 1em 0;
+}
+
+#inputPlace{
+    font-size: 1em;
+    margin: 1em 0;
+}
+
+#buttonSub{
+    margin: 2em 0;
+    width: 10em;
+    height: 4em;
+    border: 1px solid #407586;
+    border-radius: 3px;
+    background-color: #cf766b;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+#buttonSub:hover{
+    background: linear-gradient(324deg, rgba(64, 117, 134, 1) 12%, rgba(172, 99, 89, 1) 61%, rgba(81, 115, 122, 1) 100%);
+}
+
+#listBin2Dec li{
+    list-style: none;
+}
+
+footer {
+    width: 80%;
+    padding-left: 3em;
+}

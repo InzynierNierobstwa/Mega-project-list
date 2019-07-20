@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>bin2dec</title>
+    <meta name="description" content="something and nothing">
+    <meta name="author" content="Inzynier Nierobstwa">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href='style.css'>
+</head>
+
+<body>
+    <header class = 'headerContainer'>
+        <h1 class= 'mainHead'> Bin2Dec program </h1>
+        <h1 class = 'descriptionHeader'> Calculator binary to decimal </h1>
+    </header>
+    <section class = 'container'>
+        <form class = 'formContainer'>
+            <label for = 'inputPlace' class = 'labelInput'> Input: </label><br>
+            <input type = 'text' id = 'inputPlace' placeholder = 'put a binary' required minlength = '3' maxlength = '8'><br>
+            <button type = 'submit' id = 'buttonSub'>Click me</button><br>
+        </form>
+        <div class = 'listContainer'>
+            <ul id = 'listBin2Dec'>
+
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <h3> Inzynier Nierobstwa &reg; 2019 </h3>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
