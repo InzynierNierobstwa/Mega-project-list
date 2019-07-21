@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fascinate', cursive;
+    background-color: #3C4848;
+    color: #EF9032;
+    font-size: 36px;
+}
+
+header{
+    width: 80%;
+    margin: auto;
+}
+
+.container{
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    position: relative;
+}
+
+form{
+    position: absolute;
+    top: 20vh;
+    font-size: 1.5em;
+}
+
+#numOfDig{
+    position: absolute;
+    top: 2vh;
+    left: 50vh;
+    height: 2.5em;
+}
+
+#btnSubmit{
+    position: absolute;
+    width: 20vh;
+    height: 6vh;
+    top: 10vh;
+    border: none;
+    font-family: 'Fascinate', cursive;
+    font-size: 4vh;
+    color: #3C4848;
+    background-color: #EF9032;
+}
+
+#btnSubmit:hover{
+    color: #EF9032;
+    background-color: #3C4848;
+}
+
+#btnReset {
+    position: absolute;
+    width: 20vh;
+    height: 6vh;
+    top: 10vh;
+    left: 30vh;
+    border: none;
+    font-family: 'Fascinate', cursive;
+    font-size: 4vh;
+    color: #3C4848;
+    background-color: #EF9032;
+}
+
+#btnReset:hover {
+    color: #EF9032;
+    background-color: #3C4848;
+}
+
+.list{
+    position: absolute;
+    top: 30vh;
+    height: 30vh;
+    margin: 5vh;
+}
+
+footer{
+    width: 80%;
+    margin: auto;
+}
