@@ -1,3 +1,4 @@
-w3resource
+w3resource -exercise 4
+https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php#EDITOR
 
 Write a JavaScript program to find the area of a triangle where lengths of the three of its sides are 5, 6, 7. 
